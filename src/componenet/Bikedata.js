@@ -13,7 +13,7 @@ const Bikedata = () => {
       assigndata(val.data);
     });
   }, []);
-
+  
   return bikedata;
 };
 
