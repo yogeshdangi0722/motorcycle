@@ -1,14 +1,13 @@
-// import logo from './logo.svg';
-import "./App.css";
-import BikeData from "./componenet/Bikedata";
- import Bikecard from "./componenet/Bikecard";
+
+ import SiteContainer from "./componenet/SiteContainer";
 
 
 function App() {
-  return <div className="App">
-    <Bikecard />
-
-  </div>;
+  return (
+              <div className="App">
+                <SiteContainer />
+              </div>
+          );
 }
 
 export default App;

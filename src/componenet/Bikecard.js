@@ -1,12 +1,11 @@
-import React from "react";
-import reactDom from "react-dom";
+
 import "./Bikecard.css";
-import BikeData from "./Bikedata";
+
 
 const Bikecard = () => {
   return(
     <div className="bikeComponent">
-        <div id="image">
+          <div id="image">
             <img src="https://moto-trips.pl/wp-content/uploads/2020/11/315042_2021_HONDA_NC750X-1536x864.jpg" alt="" />
         </div>
         <div id="bikeDesc">
@@ -24,8 +23,7 @@ const Bikecard = () => {
                     <p>59</p>
                 </div>
             </div>
-        </div>
-
+        </div>  
     </div>
   );
 };
