@@ -2,7 +2,7 @@
 import "./Bikecard.css";
 
 
-const Bikecard = () => {
+const Bikecard = (prop) => {
   return(
     <div className="bikeComponent">
           <div id="image">
@@ -12,15 +12,15 @@ const Bikecard = () => {
             <div id="logoContainer">
                 <img src="https://moto-trips.pl/wp-content/uploads/elementor/thumbs/logo-honda-ojxxoyjmo6r7cwioln7tkgw1tpps2g6nd1d4mxyjxw.png" alt="" />
             </div>
-            <h3>Honda NC750X DCT 2021</h3>
+            <h3>{prop.make}</h3>
             <div className="descContainer">
                 <div className="descElement">
                     <label for="">Capacity</label>
-                    <p>745</p>
+                    <p>{prop.capacity}</p>
                 </div>
                 <div className="descElement">
                     <label for="">Power</label>
-                    <p>59</p>
+                    <p>{prop.hp}</p>
                 </div>
             </div>
         </div>  

@@ -1,22 +1,44 @@
 import { Supabase } from "./Client";
 import React, { useEffect, useState } from "react";
+import Bikecard from "./Bikecard";
+import './bikedata.css'
 
 const Bikedata = () => {
   let [bikedata, assigndata] = React.useState([]);
   useEffect(() => {
     const supabase_bikedata = async () => {
-      let data = await Supabase.from("bikedata").select();
-      return data;
+      try{
+        let data = await Supabase.from("bikedata").select();
+        return data;
+      }
+      catch(error){
+        console.log(error);
+      }
     };
 
     supabase_bikedata().then((val) => {
       assigndata(val.data);
     });
   }, []);
+
+  console.log(bikedata);
+
   
-  return bikedata;
+  return (<div className="container">
+
+            {
+              bikedata.map((val)=>{
+                return (<Bikecard  make = {val.make} capacity = {val.Displacement} hp={val.power}/>)
+
+              })
+
+            }
+               
+              {/* <Bikecard make = "Bajaj" capacity = "200" hp="23"/>  
+              <Bikecard make = "TVS" capacity = "200" hp="21"/>    */}
+            </div>
+            );
 };
 
-const BikeData = Bikedata();
 
-export default BikeData;
+export default Bikedata;
