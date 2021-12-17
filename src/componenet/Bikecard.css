@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background: #54595F;
+    background:#333536;
     align-items: center;
     border-radius: 20px ;
 }
