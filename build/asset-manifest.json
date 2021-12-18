@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/motorcycle/static/css/main.1dd1e36c.chunk.css",
+    "main.js": "/motorcycle/static/js/main.b9c53b4d.chunk.js",
+    "main.js.map": "/motorcycle/static/js/main.b9c53b4d.chunk.js.map",
+    "runtime-main.js": "/motorcycle/static/js/runtime-main.ad87171f.js",
+    "runtime-main.js.map": "/motorcycle/static/js/runtime-main.ad87171f.js.map",
+    "static/js/2.fe0ce33c.chunk.js": "/motorcycle/static/js/2.fe0ce33c.chunk.js",
+    "static/js/2.fe0ce33c.chunk.js.map": "/motorcycle/static/js/2.fe0ce33c.chunk.js.map",
+    "static/js/3.f25078e0.chunk.js": "/motorcycle/static/js/3.f25078e0.chunk.js",
+    "static/js/3.f25078e0.chunk.js.map": "/motorcycle/static/js/3.f25078e0.chunk.js.map",
+    "index.html": "/motorcycle/index.html",
+    "static/css/main.1dd1e36c.chunk.css.map": "/motorcycle/static/css/main.1dd1e36c.chunk.css.map",
+    "static/js/2.fe0ce33c.chunk.js.LICENSE.txt": "/motorcycle/static/js/2.fe0ce33c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad87171f.js",
+    "static/js/2.fe0ce33c.chunk.js",
+    "static/css/main.1dd1e36c.chunk.css",
+    "static/js/main.b9c53b4d.chunk.js"
+  ]
+}
