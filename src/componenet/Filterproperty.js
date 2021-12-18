@@ -5,10 +5,10 @@ const Filterproperty = (prop) => {
 return (
     <div className='sliderProp'>
         <label>{prop.fltr1} </label>
-        <Slider />
+        <Slider min = {prop.min} max = {prop.max}/>
         <div>
         <label>{prop.min}</label> <label>{prop.unit}</label> <label>"-"</label> 
-        <label>{prop.min}</label> <label>{prop.unit}</label> 
+        <label>{prop.max}</label> <label>{prop.unit}</label> 
         </div>
     </div>
     )
