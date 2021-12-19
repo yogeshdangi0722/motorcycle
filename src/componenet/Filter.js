@@ -5,7 +5,7 @@ import Filterproperty from "./Filterproperty";
 const Filter = () => {
   return (
     <div className="filterprop row">
-      <Filterproperty fltr1="capacity" min="23" max="55" />
+      <Filterproperty fltr1="capacity" min="23" max="55" unit="cm3" />
     </div>
   );
 };
