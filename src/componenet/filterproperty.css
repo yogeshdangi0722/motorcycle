@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 300px;
+  border: 2px solid red;
 }
 
 label {
