@@ -4,7 +4,7 @@ import Filterproperty from "./Filterproperty";
 
 const Filter = () => {
   return (
-    <div className="filterprop row">
+    <div className="filterprop">
       <Filterproperty
         className="col-4"
         fltr1="capacity"
