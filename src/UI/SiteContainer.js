@@ -7,8 +7,8 @@ import Header from './Header';
 const SiteContainer = () =>{
 
     return(<div className="siteProperty">
-        <Header/>
-        <Filter />
+        {/* <Header/> */}
+        {/* <Filter /> */}
         <Bikedata />
     </div>)
 } 

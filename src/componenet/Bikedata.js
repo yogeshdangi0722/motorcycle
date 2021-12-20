@@ -2,6 +2,8 @@ import { Supabase } from "./Client";
 import React, { useEffect, useState } from "react";
 import Bikecard from "./Bikecard";
 import './bikedata.css'
+import Filter from "./Filter";
+import Header from "../UI/Header";
 
 const Bikedata = () => {
   let [bikedata, assigndata] = React.useState([]);
@@ -24,14 +26,20 @@ const Bikedata = () => {
   console.log(bikedata);
 
   
-  return (<div className="container">
+  return (
+  
+        <div>
+          <Header />  
+          <Filter />
+            <div className="container">
             {
               bikedata.map((val)=>{
+                if(val.Displacement!==987)
                 return (<Bikecard  make = {val.make} capacity = {val.Displacement} hp={val.power}/>)
               })
-
             }
             </div>
+        </div>
             );
 };
 

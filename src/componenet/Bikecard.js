@@ -7,7 +7,7 @@ const Bikecard = (prop) => {
     <div className="bikeComponent">
           <div id="image">
             <img src="https://moto-trips.pl/wp-content/uploads/2020/11/315042_2021_HONDA_NC750X-1536x864.jpg" alt="" />
-        </div>
+          </div>
         <div id="bikeDesc">
             <div id="logoContainer">
                 <img src="https://moto-trips.pl/wp-content/uploads/elementor/thumbs/logo-honda-ojxxoyjmo6r7cwioln7tkgw1tpps2g6nd1d4mxyjxw.png" alt="" />

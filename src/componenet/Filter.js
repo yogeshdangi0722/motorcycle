@@ -4,28 +4,33 @@ import Filterproperty from "./Filterproperty";
 
 const Filter = () => {
   return (
-    <div className="filterprop">
+    <div className="filtercontent">
+      <div className="filterprop">
       <Filterproperty
-        className="col-4"
+      
         fltr1="capacity"
         min={23}
         max={55}
         unit="cm3"
       />
       <Filterproperty
-        className="col-4"
+     
         fltr1="capacity"
         min={23}
         max={55}
         unit="cm3"
       />
       <Filterproperty
-        className="col-4"
+        
         fltr1="capacity"
         min={23}
         max={55}
         unit="cm3"
       />
+    </div>
+    <div>
+      <button type="button" className="btn">Filter</button>
+    </div>
     </div>
   );
 };

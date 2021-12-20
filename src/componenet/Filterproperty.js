@@ -13,7 +13,6 @@ const Filterproperty = (prop) => {
         unit ={prop.unit}
         onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
       />
-      
     </div>
   );
 };
