@@ -10,12 +10,10 @@ const Filterproperty = (prop) => {
       <MultiRangeSlider
         min={prop.min}
         max={prop.max}
+        unit ={prop.unit}
         onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
       />
-      <div className="unit">
-        <label>{prop.min}</label> <label>{prop.unit}</label> <label>"-"</label>
-        <label>{prop.max}</label> <label>{prop.unit}</label>
-      </div>
+      
     </div>
   );
 };

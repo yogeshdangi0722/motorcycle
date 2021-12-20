@@ -25,17 +25,12 @@ const Bikedata = () => {
 
   
   return (<div className="container">
-
             {
               bikedata.map((val)=>{
                 return (<Bikecard  make = {val.make} capacity = {val.Displacement} hp={val.power}/>)
-
               })
 
             }
-               
-              {/* <Bikecard make = "Bajaj" capacity = "200" hp="23"/>  
-              <Bikecard make = "TVS" capacity = "200" hp="21"/>    */}
             </div>
             );
 };

@@ -1,6 +1,5 @@
 .slider {
   position: relative;
-  width: 200px;
 }
 
 .slider__track,
@@ -60,7 +59,7 @@
 }
 
 /* For Firefox browsers */
-/*
+
 .thumb::-moz-range-thumb {
   background-color: #f1f5f7;
   border: none;
@@ -72,10 +71,10 @@
   margin-top: 4px;
   pointer-events: all;
   position: relative;
-}*/
+}
 
 .thumb--zindex-5 {
-  /* z-index: 5; */
+  z-index: 5;
 }
 
 .slider__left-value,
@@ -92,4 +91,8 @@
 
 .slider__right-value {
   right: -4px;
+}
+
+.box{
+  width: 100px;
 }
